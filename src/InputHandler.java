@@ -15,6 +15,10 @@ public class InputHandler {
         return in.hasNextInt();
     }
 
+    public String takeString() {
+        return in.nextLine();
+    }
+
     public void clear() {
         in = new Scanner(System.in);
     }

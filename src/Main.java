@@ -9,9 +9,12 @@ public class Main {
         InputHandler ih = new InputHandler();
 
         System.out.println("How many players are you?");
+
+        int totalPlayers;
+
         while (true) {
             if (ih.hasNumber()) {
-                int totalPlayers = ih.takeNumber();
+                totalPlayers = ih.takeNumber();
 
                 if (totalPlayers >= 2) {
                     System.out.println("Welcome to the battle of " + totalPlayers + "!");
@@ -27,14 +30,13 @@ public class Main {
 
         }
 
-        /*int[] playerArray = new int[totalPlayer];
+        String[] playerNames = new String[totalPlayers];
         System.out.println("Please enter your desired names!");
+        ih.clear();
 
         for (int i = 0; i < totalPlayers; i++) {
-            System.out.println("Player #" + i + ":");
-            String[] playerNames = sc.nextLine();
-
-
-        }*/
+            System.out.println("Player #" + (i+1) + ":");
+            playerNames[i] = ih.takeString();
+        }
     }
 }
