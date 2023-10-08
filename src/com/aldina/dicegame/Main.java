@@ -1,3 +1,4 @@
+package com.aldina.dicegame;
 public class Main {
     public static final String colourReset = "\u001B[0m";
     public static final String redText = "\u001B[31m";

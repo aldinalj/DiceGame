@@ -1,3 +1,5 @@
+package com.aldina.dicegame;
+
 import java.util.Scanner;
 
 public class InputHandler {

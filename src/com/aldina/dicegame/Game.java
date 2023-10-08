@@ -1,3 +1,5 @@
+package com.aldina.dicegame;
+
 public class Game {
     public static final String colourReset = "\u001B[0m";
     public static final String blueText = "\u001B[34m";

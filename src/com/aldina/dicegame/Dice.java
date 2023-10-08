@@ -1,3 +1,5 @@
+package com.aldina.dicegame;
+
 import java.util.Random;
 public class Dice {
     Random rand = new Random();

@@ -1,3 +1,5 @@
+package com.aldina.dicegame;
+
 public class Player {
     private String name;
     private int score;
